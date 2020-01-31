@@ -11,7 +11,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World! My name is Jia! How are you?'
+    return 'Hello World! My name is Jia! How are you? I am good!'
 
 @app.route('/name/<value>')
 def name(value):
